@@ -344,7 +344,6 @@ footer{
     margin: 1rem auto;
     border-radius: 0 24px 24px 0;
     display: block;
-    display: block;
     text-decoration: none;
     text-align: center;
     font-size: 1.1rem;
@@ -596,7 +595,7 @@ footer{
 #pattern1{
     background-color: lightgray;
     background-size: 110%;
-    background-image: url('images/wood_texture.jpg')
+    background-image: url('images/wood.png')
 }
 
 /* For the second div, the pattern is from from Hero Pattern. These actually give you SVG code to paste into your CSS */
@@ -653,7 +652,7 @@ footer{
         - float the image to the right
 */
 #dog-house{
-    
+    float: right;
 }
 
 /* When you use floats, you have to be sure to clear them so that the rest of your page after the floats displays normally. Let's use the display section to clear the floats (because it is the next tag outside of our container in the HTML) */
@@ -662,7 +661,7 @@ footer{
         - clear any floats
 */
 #section9{
-    
+    clear: both;
 }
 
 /* ------------- SECTION 9 STYLES ---------------- */
